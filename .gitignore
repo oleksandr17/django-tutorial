@@ -1,0 +1,51 @@
+syntax: glob
+
+# OS files
+*~
+*.DS_Store
+
+# IDE files
+.idea/
+.vagrant/
+*.iml
+
+# Compiled source
+*.pyc
+
+params.py
+*.env
+
+# Other
+venv/
+*.sqlite3
+*.db
+*.mo
+media/
+src/media/
+*.log
+logs/
+log/
+src/logs/
+src/.cache
+src/.tox
+src/Deploy_.egg-info
+builds/
+ansible/external_roles
+
+# Vim swap files.
+*.swp
+*.swo
+
+ansible/roles-development
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
